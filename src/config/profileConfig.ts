@@ -2,38 +2,28 @@ import type { ProfileConfig } from "../types/config";
 
 // 个人资料配置
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "まつざか ゆき",
-	bio: "世界は大きい、君は行かなければならない",
-	typewriter: {
-		enable: true, // 启用个人简介打字机效果
-		speed: 80, // 打字速度（毫秒）
-	},
-	links: [
-		{
-			name: "Bilibili",
-			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
-		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
-		{
-			name: "GitHub",
-			icon: "fa7-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
-		},
-		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
-		},
-		{
-			name: "Discord",
-			icon: "fa7-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
-		},
-	],
+  avatar: "/images/avatar.jpg", // 以 '/' 开头表示 public 目录下的路径
+  name: "SonderXiaoming",
+  bio: "Accept fate and stay ordinary. Defy it and become extraordinary.",
+  typewriter: {
+    enable: true, // 启用个人简介打字机效果
+    speed: 80, // 打字速度（毫秒）
+  },
+  links: [
+    {
+      name: "GitHub",
+      icon: "fa7-brands:github",
+      url: "https://github.com/SonderXiaoming",
+    },
+    {
+      name: "LinkedIn",
+      icon: "fa7-brands:linkedin",
+      url: "https://www.linkedin.com/in/jialeyu0608/",
+    },
+    {
+      name: "Bilibili",
+      icon: "fa7-brands:bilibili",
+      url: "https://space.bilibili.com/33826828",
+    },
+  ],
 };

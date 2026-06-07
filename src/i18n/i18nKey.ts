@@ -140,6 +140,8 @@ enum I18nKey {
 	projectsMobile = "projectsMobile",
 	projectsDesktop = "projectsDesktop",
 	projectsOther = "projectsOther",
+	projectsPython = "projectsPython",
+	projectsApp = "projectsApp",
 	projectTechStack = "projectTechStack",
 	projectLiveDemo = "projectLiveDemo",
 	projectSourceCode = "projectSourceCode",

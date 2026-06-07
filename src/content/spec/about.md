@@ -1,49 +1,41 @@
+Hi, I'm **Xiaoming** — also known as **SonderXiaoming** online.
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
+> Accept fate and stay ordinary. Defy it and become extraordinary.
 
-::github{repo="LyraVoid/Mizuki"}
+I'm a computer engineering student and developer based in New York. I like building things that are useful in real communities: research pipelines, automation tools, bot plugins, and the occasional side project that starts as a joke and somehow gets 40 stars on GitHub.
 
-## 🌟 Theme Features
+## About Me
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+I'm currently pursuing a **Master's degree in Computer Engineering** at **Columbia University**, after completing my **B.S. in Computer Science** at **Auburn University**.
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+My academic work spans several areas:
 
+- **Biomedical data systems** — as a Research Affiliate at Yale, I work on data management and analysis for large-scale multi-omics datasets (RNA-seq, ATAC-seq, WGS, and spatial data).
+- **RF sensing & machine learning** — previously at Auburn, I built ML pipelines for human activity recognition using RFID, WiFi, FMCW radar, and 5G sensing modalities.
+- **Software engineering** — I've also shipped embedded and application-layer software in industry internships.
 
+Outside of coursework and research, I spend a lot of time writing **Python** — mostly open-source tools for game communities and chat bots.
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+## What I Build
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
+A large part of my open-source work lives on GitHub under [@SonderXiaoming](https://github.com/SonderXiaoming). Representative projects include:
 
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+- **[Kanna Note](https://github.com/SonderXiaoming/kanna_note)** — a Princess Connect Re:Dive plugin for HoshinoBot with game info lookup and auto updates
+- **[Kanna Connection Re:Dive](https://github.com/SonderXiaoming/kanna_connection_redive_2)** — boss spawn monitoring and notification automation
+- **[Youzi Voice](https://github.com/SonderXiaoming/youzi_voice)** — character voice replies for group chat bots
+- **[Misora Note](https://github.com/SonderXiaoming/MisoraNote)** — a cross-platform mobile companion app (Flutter)
+- **[PCR Login Helper](https://github.com/SonderXiaoming/pcr_login_helper)** — a Rust desktop utility for account tooling
 
----
+You can browse more on the [Projects](/projects/) and [Skills](/skills/) pages, or follow my journey on the [Timeline](/timeline/).
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+## This Site
+
+This personal site is built with [Astro](https://astro.build/) and the [Mizuki](https://github.com/LyraVoid/Mizuki) theme. I use it to write, collect projects, and keep a public snapshot of what I'm learning and building.
+
+## Find Me
+
+- GitHub: [github.com/SonderXiaoming](https://github.com/SonderXiaoming)
+- LinkedIn: [linkedin.com/in/jialeyu0608](https://www.linkedin.com/in/jialeyu0608/)
+- Bilibili: [space.bilibili.com/33826828](https://space.bilibili.com/33826828)
+
+Feel free to reach out if you want to talk about research, open source, bot development, or Princess Connect tooling. Ciallo (∠·ω )⌒★
