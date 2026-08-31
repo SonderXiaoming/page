@@ -237,6 +237,8 @@ export const en: Translation = {
 	[Key.postListLayout]: "Post Layout",
 	[Key.postListLayoutList]: "List",
 	[Key.postListLayoutGrid]: "Grid",
+	[Key.ultrawidePostLayout]: "Wide Screen Layout",
+	[Key.ultrawidePostLayoutHint]: "Widens articles on 2K and larger screens",
 	[Key.resetAll]: "Reset All",
 	[Key.settingsThemeColor]: "Theme Color",
 	[Key.settingsWallpaper]: "Wallpaper",
@@ -244,6 +246,7 @@ export const en: Translation = {
 	[Key.settingsBanner]: "Banner Options",
 	[Key.settingsEffects]: "Effects",
 	[Key.settingsLayout]: "Layout",
+	[Key.settingsFeatures]: "Features",
 
 	// Skills Page
 	[Key.skills]: "Skills",
@@ -272,6 +275,26 @@ export const en: Translation = {
 	[Key.skillsByLevel]: "By Level",
 	[Key.skillsByCategory]: "By Category",
 	[Key.noData]: "No data",
+
+	// AI Tools (About page)
+	[Key.aiTools]: "AI Tools I Use",
+	[Key.aiToolsSubtitle]:
+		"AI assistants and services that are part of my daily workflow",
+	[Key.aiToolsCategoryChat]: "Chat Assistants",
+	[Key.aiToolsCategoryCoding]: "Coding",
+	[Key.aiToolsCategoryImage]: "Image",
+	[Key.aiToolsCategoryAudio]: "Audio",
+	[Key.aiToolsCategoryVideo]: "Video",
+	[Key.aiToolsCategoryWriting]: "Writing / Notes",
+	[Key.aiToolsCategorySearch]: "Search / Research",
+	[Key.aiToolsCategoryOther]: "Other",
+	[Key.aiToolsFrequencyDaily]: "Daily",
+	[Key.aiToolsFrequencyWeekly]: "Weekly",
+	[Key.aiToolsFrequencyOccasional]: "Occasional",
+	[Key.aiToolsFrequencyExperimental]: "Experimental",
+	[Key.aiToolsUsage]: "Usage",
+	[Key.aiToolsVisit]: "Visit",
+	[Key.aiToolsNoResults]: "No matching AI tools",
 
 	// Timeline Page
 	[Key.timeline]: "Timeline",

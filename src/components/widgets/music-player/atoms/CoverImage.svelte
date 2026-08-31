@@ -1,6 +1,8 @@
 <script lang="ts">
 import Icon from "@iconify/svelte";
 
+import { DEFAULT_COVER_URL } from "@/components/widgets/music-player/constants";
+import { resolveAssetUrl } from "@/utils/asset-url";
 import Key from "../../../../i18n/i18nKey";
 import { i18n } from "../../../../i18n/translation";
 
@@ -22,16 +24,6 @@ const {
 	interactive = false,
 }: Props = $props();
 
-function getAssetPath(path: string): string {
-	if (path.startsWith("http://") || path.startsWith("https://")) {
-		return path;
-	}
-	if (path.startsWith("/")) {
-		return path;
-	}
-	return `/${path}`;
-}
-
 const containerClasses = {
 	mini: "cover-container relative w-12 h-12 rounded-full overflow-hidden",
 	expanded:
@@ -41,7 +33,7 @@ const containerClasses = {
 
 {#if size === "orb"}
 	<div
-		class="orb-player w-12 h-12 bg-[var(--primary)] rounded-full shadow-lg cursor-pointer transition-all duration-500 ease-in-out flex items-center justify-center hover:scale-110 active:scale-95"
+		class="orb-player w-12 h-12 bg-(--primary) rounded-full shadow-lg cursor-pointer transition-all duration-500 ease-in-out flex items-center justify-center hover:scale-110 active:scale-95"
 		{onclick}
 		onkeydown={(e) => {
 			if (e.key === "Enter" || e.key === " ") {
@@ -93,10 +85,10 @@ const containerClasses = {
 			: i18n(Key.musicPlayerPlay)}
 	>
 		<img
-			src={getAssetPath(cover)}
+			src={resolveAssetUrl(cover || DEFAULT_COVER_URL)}
 			alt={i18n(Key.musicPlayerCover)}
-			loading="eager"
-			fetchpriority="high"
+			loading="lazy"
+			fetchpriority="low"
 			class="w-full h-full object-cover transition-transform duration-300"
 			class:spinning={isPlaying && !isLoading}
 			class:animate-pulse={isLoading}
@@ -122,10 +114,10 @@ const containerClasses = {
 {:else}
 	<div class={containerClasses[size]}>
 		<img
-			src={getAssetPath(cover)}
+			src={resolveAssetUrl(cover || DEFAULT_COVER_URL)}
 			alt={i18n(Key.musicPlayerCover)}
-			loading="eager"
-			fetchpriority="high"
+			loading="lazy"
+			fetchpriority="low"
 			class="w-full h-full object-cover transition-transform duration-300"
 			class:spinning={isPlaying && !isLoading}
 			class:animate-pulse={isLoading}

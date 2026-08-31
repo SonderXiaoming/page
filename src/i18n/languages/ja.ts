@@ -239,6 +239,8 @@ export const ja: Translation = {
 	[Key.postListLayout]: "投稿レイアウト",
 	[Key.postListLayoutList]: "リスト",
 	[Key.postListLayoutGrid]: "グリッド",
+	[Key.ultrawidePostLayout]: "ワイド記事レイアウト",
+	[Key.ultrawidePostLayoutHint]: "2K 以上の画面で記事を広げます",
 	[Key.resetAll]: "すべてリセット",
 	[Key.settingsThemeColor]: "テーマカラー",
 	[Key.settingsWallpaper]: "壁紙",
@@ -246,6 +248,7 @@ export const ja: Translation = {
 	[Key.settingsBanner]: "バナーオプション",
 	[Key.settingsEffects]: "エフェクト",
 	[Key.settingsLayout]: "レイアウト",
+	[Key.settingsFeatures]: "機能",
 
 	// スキルページ
 	[Key.skills]: "スキル",
@@ -274,6 +277,26 @@ export const ja: Translation = {
 	[Key.skillsByLevel]: "レベル別",
 	[Key.skillsByCategory]: "カテゴリー別",
 	[Key.noData]: "データなし",
+
+	// AI ツール（Aboutページ）
+	[Key.aiTools]: "使っている AI ツール",
+	[Key.aiToolsSubtitle]:
+		"日常のワークフローで使用している AI アシスタントとサービス",
+	[Key.aiToolsCategoryChat]: "チャットアシスタント",
+	[Key.aiToolsCategoryCoding]: "コーディング",
+	[Key.aiToolsCategoryImage]: "画像生成",
+	[Key.aiToolsCategoryAudio]: "音声",
+	[Key.aiToolsCategoryVideo]: "動画",
+	[Key.aiToolsCategoryWriting]: "ライティング / ノート",
+	[Key.aiToolsCategorySearch]: "検索 / リサーチ",
+	[Key.aiToolsCategoryOther]: "その他",
+	[Key.aiToolsFrequencyDaily]: "毎日",
+	[Key.aiToolsFrequencyWeekly]: "毎週",
+	[Key.aiToolsFrequencyOccasional]: "時々",
+	[Key.aiToolsFrequencyExperimental]: "お試し",
+	[Key.aiToolsUsage]: "使用量",
+	[Key.aiToolsVisit]: "公式サイト",
+	[Key.aiToolsNoResults]: "該当する AI ツールがありません",
 
 	// タイムラインページ
 	[Key.timeline]: "タイムライン",
