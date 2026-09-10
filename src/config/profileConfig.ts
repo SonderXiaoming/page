@@ -4,7 +4,7 @@ import type { ProfileConfig } from "../types/config";
 export const profileConfig: ProfileConfig = {
   avatar: "/images/avatar.jpg", // 以 '/' 开头表示 public 目录下的路径
   name: "SonderXiaoming",
-  bio: "Accept fate and stay ordinary. Defy it and become extraordinary.",
+  bio: "Open-source tools, research experiments, and a little anime energy.",
   typewriter: {
     enable: true, // 启用个人简介打字机效果
     speed: 80, // 打字速度（毫秒）

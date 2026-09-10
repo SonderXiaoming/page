@@ -24,7 +24,7 @@ export const projectsData: Project[] = [
     id: "kanna_note",
     title: "Kanna Note",
     description:
-      "A Python plugin for Princess Connect Re:Dive that gives players quick access to game info and automatic updates. Integrates easily with chatbot frameworks like Hoshino.",
+      "Turns frequently requested Princess Connect information into fast chatbot lookups, with Python and SQL powering automatic data updates for Hoshino-based communities.",
     image: "",
     category: "python",
     techStack: ["Python", "SQL"],
@@ -38,7 +38,7 @@ export const projectsData: Project[] = [
     id: "youzi_voice",
     title: "Youzi Voice",
     description:
-      "A Python bot plugin that sends Princess Connect character voice clips in group chats. Built for HoshinoBot and similar CQHTTP-based frameworks.",
+      "Adds character voice replies to group chats through a lightweight Python plugin designed for HoshinoBot and other CQHTTP-compatible frameworks.",
     image: "",
     category: "python",
     techStack: ["Python"],
@@ -52,7 +52,7 @@ export const projectsData: Project[] = [
     id: "kanna_connection_redive",
     title: "Kanna Connection Re:Dive",
     description:
-      "Reverse-engineered Princess Connect game APIs to automatically fetch boss spawn updates and push them to designated channels. Supports 100+ concurrent monitors for timely, accurate notifications.",
+      "Turned reverse-engineered game APIs into an asynchronous notification service used across roughly 100 group chats—an estimated community audience of about 3,000 people.",
     image: "",
     category: "python",
     techStack: ["Python", "API Integration", "Async"],
@@ -66,7 +66,7 @@ export const projectsData: Project[] = [
     id: "kanna_connection_redive_2",
     title: "Kanna Connection Re:Dive 2",
     description:
-      "Successor to Kanna Connection Re:Dive with improved boss monitoring and notification delivery for Princess Connect Re:Dive.",
+      "Rebuilds the community service for higher concurrency with a WebUI, permission controls, arena tools, and support for multiple regional game environments.",
     image: "",
     category: "python",
     techStack: ["Python", "API Integration", "Async"],
@@ -80,7 +80,7 @@ export const projectsData: Project[] = [
     id: "autohelp",
     title: "AutoHelp",
     description:
-      "Automatically generates interactive help pages for HoshinoBot modules, replacing hand-written help docs with a maintainable web-based help system.",
+      "Replaces hand-written bot documentation with automatically generated, interactive help pages that stay easier to update as HoshinoBot modules evolve.",
     image: "",
     category: "python",
     techStack: ["Python", "CSS", "HTML", "Flask"],
@@ -93,7 +93,7 @@ export const projectsData: Project[] = [
     id: "login_bonus",
     title: "Login Bonus",
     description:
-      "A HoshinoBot plugin that reminds players to collect daily login rewards in Princess Connect Re:Dive, helping guilds reduce missed bonus claims.",
+      "Automates daily reward reminders in group chats, helping Princess Connect communities turn a repetitive coordination task into a dependable bot workflow.",
     image: "",
     category: "python",
     techStack: ["Python"],
@@ -106,7 +106,7 @@ export const projectsData: Project[] = [
     id: "pcr_login_helper",
     title: "PCR Login Helper",
     description:
-      "Desktop tool to extract Princess Connect uid and access_key. Supports Bilibili, channel, and Taiwan servers. Available for Windows and macOS via releases.",
+      "Packages Rust, Tauri, Vue, and ADB into a cross-platform desktop workflow for extracting uid and access_key data across multiple regional servers.",
     image: "",
     category: "app",
     techStack: ["Rust", "Tauri", "ADB", "Vue"],
@@ -119,7 +119,7 @@ export const projectsData: Project[] = [
     id: "dailywife",
     title: "Daily Wife",
     description:
-      "HoshinoBot plugin that randomly assigns a group member as your daily 'wife'. Each day picks one partner per user with fixed daily results and fun easter eggs.",
+      "A playful HoshinoBot social plugin with deterministic daily pairings, one result per user per day, and community-oriented easter eggs.",
     image: "",
     category: "python",
     techStack: ["Python"],
@@ -132,7 +132,7 @@ export const projectsData: Project[] = [
     id: "pcrjjc_huannai",
     title: "PCR Arena Companion",
     description:
-      "Arena (JJC) companion plugin for Princess Connect Re:Dive bots, providing arena-related queries and utilities for HoshinoBot users.",
+      "Brought arena lookups and practical JJC utilities into HoshinoBot, letting Princess Connect players get matchup information without leaving group chat.",
     image: "",
     category: "python",
     techStack: ["Python", "API Integration", "Async"],
@@ -146,7 +146,7 @@ export const projectsData: Project[] = [
     id: "pcrjjc_huannai2",
     title: "PCR Arena Companion 2",
     description:
-      "Successor to PCR Arena Companion with improved arena tools and queries for Princess Connect Re:Dive. Built for HoshinoBot and actively maintained.",
+      "Expanded the arena companion with multi-UID binding, per-account alerts, multiple regions, private or group delivery, and automatic CAPTCHA with a manual fallback.",
     image: "",
     category: "python",
     techStack: ["Python", "API Integration", "Async", "SQL"],
@@ -159,7 +159,7 @@ export const projectsData: Project[] = [
     id: "auto_chem_joke",
     title: "Auto Chem Joke",
     description:
-      "Automatically enumerates chemical substances and generates balanced equations for a target product, following letter conservation. Inspired by jokes like 2Na + Ba → Banana.",
+      "Turns chemistry wordplay into a search problem by enumerating substances and generating letter-balanced equations such as 2Na + Ba → Banana.",
     image: "",
     category: "web",
     techStack: ["TypeScript", "Vue"],
@@ -172,7 +172,7 @@ export const projectsData: Project[] = [
     id: "overleaf_latex_format",
     title: "Overleaf LaTeX Format",
     description:
-      "Chrome extension that formats and tidies LaTeX code inside Overleaf using Prettier. Supports one-click formatting via right-click menu, extension icon, or keyboard shortcut.",
+      "Brings Prettier-powered LaTeX formatting directly into Overleaf through a context menu, toolbar action, and keyboard shortcut.",
     image: "",
     category: "web",
     techStack: ["JavaScript", "Chrome Extension", "LaTeX", "Prettier"],
@@ -185,7 +185,7 @@ export const projectsData: Project[] = [
     id: "misora_note",
     title: "Misora Note",
     description:
-      "Cross-platform app for Princess Connect Re:Dive with quick info lookup and auto updates — a mobile app counterpart to Kanna Note.",
+      "Extends the quick lookup and automatic-update ideas behind Kanna Note into a cross-platform Flutter companion app for mobile users.",
     image: "",
     category: "app",
     techStack: ["Flutter", "Dart", "SQL"],

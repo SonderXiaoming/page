@@ -1,7 +1,8 @@
 ---
 title: "Site Launch: My Personal Website Is Finally Live"
 published: 2026-06-07
-description: "My first post — why this site took so long, and why I chose Mizuki."
+updated: 2026-09-09
+description: "The story behind launching this site, choosing Mizuki, and deciding to publish before everything felt finished."
 tags: [Personal, Website, Mizuki]
 image: "./cover.webp"
 category: Notes
@@ -44,6 +45,8 @@ I plan to add more over time:
 - **Albums** — photos and galleries
 
 Other pages and content will follow as needed. No rush to get everything perfect on day one.
+
+> **A note from later:** this launch post captures the site's original direction. Since then, the focus has shifted toward documenting projects, research, skills, and the tools behind my daily workflow. New sections will appear when I have something worth putting in them—not simply because the template supports them.
 
 ## Closing thoughts
 

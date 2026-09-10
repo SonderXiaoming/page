@@ -144,7 +144,8 @@ export const ja: Translation = {
 
 	// プロジェクトページ
 	[Key.projects]: "プロジェクト",
-	[Key.projectsSubtitle]: "開発プロジェクトのポートフォリオ",
+	[Key.projectsSubtitle]:
+		"自動化、研究ワークフロー、ゲームコミュニティのためのオープンソースツール",
 	[Key.projectsAll]: "すべて",
 	[Key.projectsWeb]: "ウェブアプリ",
 	[Key.projectsMobile]: "モバイルアプリ",
@@ -252,7 +253,8 @@ export const ja: Translation = {
 
 	// スキルページ
 	[Key.skills]: "スキル",
-	[Key.skillsSubtitle]: "技術スキルと専門知識",
+	[Key.skillsSubtitle]:
+		"プロジェクトの開発、研究ワークフロー、システム運用で使用する技術",
 	[Key.skillsFrontend]: "フロントエンド開発",
 	[Key.skillsBackend]: "バックエンド開発",
 	[Key.skillsDatabase]: "データベース",
@@ -281,7 +283,7 @@ export const ja: Translation = {
 	// AI ツール（Aboutページ）
 	[Key.aiTools]: "使っている AI ツール",
 	[Key.aiToolsSubtitle]:
-		"日常のワークフローで使用している AI アシスタントとサービス",
+		"日々のワークフローで AI をどう活用しているかの実用的な記録",
 	[Key.aiToolsCategoryChat]: "チャットアシスタント",
 	[Key.aiToolsCategoryCoding]: "コーディング",
 	[Key.aiToolsCategoryImage]: "画像生成",
@@ -300,7 +302,8 @@ export const ja: Translation = {
 
 	// タイムラインページ
 	[Key.timeline]: "タイムライン",
-	[Key.timelineSubtitle]: "成長への旅と重要なマイルストーン",
+	[Key.timelineSubtitle]:
+		"現在のものづくりにつながった教育、研究、エンジニアリングの経験",
 	[Key.timelineEducation]: "教育",
 	[Key.timelineWork]: "実務経験",
 	[Key.timelineProject]: "プロジェクト経験",

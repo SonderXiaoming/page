@@ -2,9 +2,36 @@ import type { TimelineItem } from "../components/features/timeline/types";
 
 export const timelineData: TimelineItem[] = [
   {
+    id: "dong-lab-master-student",
+    title: "Master Student · Dong Lab",
+    description:
+      "Working on machine learning, multimodal data integration, and reproducible systems for healthcare and biological datasets.",
+    type: "work",
+    startDate: "2025-09-15",
+    location: "Remote",
+    organization: "Yale University",
+    skills: ["Python", "Data Analysis", "Machine Learning", "Multi-omics"],
+    achievements: [
+      "Engineered a centralized platform for RNA-seq, ATAC-seq, WGS, and spatial datasets.",
+      "Designed storage schemas and reproducible workflows for heterogeneous biological data.",
+      "Explored machine learning and multimodal data integration for healthcare and human activity recognition.",
+    ],
+    links: [
+      {
+        name: "Dong Lab Profile",
+        url: "https://donglab.org/team/",
+        type: "website",
+      },
+    ],
+    icon: "material-symbols:work",
+    color: "#DC2626",
+    featured: true,
+  },
+  {
     id: "master-student",
-    title: "CE Master Student",
-    description: "Currently studying Computer Science and Technology.",
+    title: "M.S. in Computer Engineering",
+    description:
+      "Graduate study focused on computer systems, software, and the technical foundations behind my research and engineering work.",
     type: "education",
     startDate: "2025-09-01",
     location: "New York",
@@ -16,43 +43,10 @@ export const timelineData: TimelineItem[] = [
     featured: true,
   },
   {
-    id: "bachelor-student",
-    title: "CS Bachelor Student",
-    description: "Major in Computer Science.",
-    type: "education",
-    startDate: "2022-09-01",
-    endDate: "2025-06-01",
-    location: "Auburn",
-    organization: "Auburn University",
-    skills: ["C++", "Python", "Java", "SQL"],
-    achievements: ["Final GPA: 3.89"],
-    icon: "material-symbols:school",
-    color: "#059669",
-  },
-  {
-    id: "Research-Affiliate",
-    title: "Research Affiliate (Remote)",
-    description:
-      "Conducting research on data management and analysis for large-scale multi-omics datasets, including RNA-seq, ATAC-seq, WGS, and spatial data.",
-    type: "work",
-    startDate: "2025-09-15",
-    location: "Remote",
-    organization: "Yale University",
-    skills: ["Python", "Data Analysis", "Machine Learning", "Multi-omics"],
-    achievements: [
-      "Engineered a centralized data platform for large-scale multi-omics datasets (RNA-seq, ATAC-seq, WGS, spatial).",
-      "Designed structured storage schemas and reproducible data workflows for heterogeneous biological data.",
-      "Enabled scalable querying and cross-institution collaboration through standardized data pipelines.",
-    ],
-    icon: "material-symbols:work",
-    color: "#DC2626",
-    featured: true,
-  },
-  {
-    id: "Research Assistant",
+    id: "research-assistant",
     title: "Research Assistant",
     description:
-      "Conducted research on RF sensing and machine learning for human activity recognition, developing end-to-end ML pipelines and benchmarking model generalization across RF modalities.",
+      "Studied RF sensing and machine learning for human activity recognition, from data preparation through cross-modality evaluation.",
     type: "work",
     startDate: "2024-05-30",
     endDate: "2025-03-08",
@@ -66,18 +60,18 @@ export const timelineData: TimelineItem[] = [
       "RF Sensing",
     ],
     achievements: [
-      "Developed end-to-end ML pipelines for RFID-based sensing systems for human activity recognition.",
-      "Benchmarked model generalization across RF modalities (WiFi, FMCW Radar, 5G).",
-      "Integrated synthetic data into training workflows to improve robustness under limited real-world data.",
+      "Developed end-to-end machine-learning pipelines for RFID-based activity recognition.",
+      "Benchmarked generalization across WiFi, FMCW radar, and 5G sensing modalities.",
+      "Integrated synthetic data into training workflows under limited real-world data conditions.",
     ],
     icon: "material-symbols:work",
     color: "#DC2626",
   },
   {
-    id: "Software Engineering Intern",
+    id: "software-engineering-intern",
     title: "Software Engineering Intern",
     description:
-      "Worked on software development projects, contributing to the design and implementation of web applications.",
+      "Built embedded and application-layer software for smart-home systems and supported integration across hardware and product teams.",
     type: "work",
     startDate: "2023-05-26",
     endDate: "2023-08-08",
@@ -91,7 +85,22 @@ export const timelineData: TimelineItem[] = [
     icon: "material-symbols:work",
     color: "#DC2626",
   },
-  /** 
+  {
+    id: "bachelor-student",
+    title: "B.S. in Computer Science",
+    description:
+      "Built a foundation in software engineering, algorithms, databases, and systems while developing research and open-source projects.",
+    type: "education",
+    startDate: "2022-09-01",
+    endDate: "2025-06-01",
+    location: "Auburn",
+    organization: "Auburn University",
+    skills: ["C++", "Python", "Java", "SQL"],
+    achievements: ["Final GPA: 3.89"],
+    icon: "material-symbols:school",
+    color: "#059669",
+  },
+  /**
 	{
 		id: "web-development-course",
 		title: "Completed Web Development Online Course",

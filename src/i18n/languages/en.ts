@@ -143,7 +143,8 @@ export const en: Translation = {
 
 	// Projects Page
 	[Key.projects]: "Projects",
-	[Key.projectsSubtitle]: "My development project portfolio",
+	[Key.projectsSubtitle]:
+		"Open-source tools for automation, research workflows, and game communities",
 	[Key.projectsAll]: "All",
 	[Key.projectsWeb]: "Web Applications",
 	[Key.projectsMobile]: "Mobile Applications",
@@ -250,7 +251,8 @@ export const en: Translation = {
 
 	// Skills Page
 	[Key.skills]: "Skills",
-	[Key.skillsSubtitle]: "My technical skills and expertise",
+	[Key.skillsSubtitle]:
+		"Technologies I use to ship projects, run research workflows, and keep systems working",
 	[Key.skillsFrontend]: "Frontend Development",
 	[Key.skillsBackend]: "Backend Development",
 	[Key.skillsDatabase]: "Database",
@@ -279,7 +281,7 @@ export const en: Translation = {
 	// AI Tools (About page)
 	[Key.aiTools]: "AI Tools I Use",
 	[Key.aiToolsSubtitle]:
-		"AI assistants and services that are part of my daily workflow",
+		"A small, practical look at where AI fits into my daily workflow",
 	[Key.aiToolsCategoryChat]: "Chat Assistants",
 	[Key.aiToolsCategoryCoding]: "Coding",
 	[Key.aiToolsCategoryImage]: "Image",
@@ -298,7 +300,8 @@ export const en: Translation = {
 
 	// Timeline Page
 	[Key.timeline]: "Timeline",
-	[Key.timelineSubtitle]: "My growth journey and important milestones",
+	[Key.timelineSubtitle]:
+		"Education, research, and engineering experiences that shaped what I build",
 	[Key.timelineEducation]: "Education",
 	[Key.timelineWork]: "Work Experience",
 	[Key.timelineProject]: "Project Experience",

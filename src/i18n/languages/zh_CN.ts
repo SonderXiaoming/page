@@ -138,7 +138,7 @@ export const zh_CN: Translation = {
 
 	// 项目展示页面
 	[Key.projects]: "项目展示",
-	[Key.projectsSubtitle]: "我的开发项目作品集",
+	[Key.projectsSubtitle]: "面向自动化、研究工作流与游戏社区的开源工具",
 	[Key.projectsAll]: "全部",
 	[Key.projectsWeb]: "网页应用",
 	[Key.projectsMobile]: "移动应用",
@@ -167,7 +167,7 @@ export const zh_CN: Translation = {
 
 	// 技能展示页面
 	[Key.skills]: "技能展示",
-	[Key.skillsSubtitle]: "我的技术技能和专业知识",
+	[Key.skillsSubtitle]: "我用来交付项目、支撑研究工作流与维护系统的技术",
 	[Key.skillsFrontend]: "前端开发",
 	[Key.skillsBackend]: "后端开发",
 	[Key.skillsDatabase]: "数据库",
@@ -195,7 +195,7 @@ export const zh_CN: Translation = {
 
 	// AI 工具（关于页面）
 	[Key.aiTools]: "我使用的 AI 工具",
-	[Key.aiToolsSubtitle]: "目前在日常工作流中常用的 AI 助手与服务",
+	[Key.aiToolsSubtitle]: "简要记录 AI 在我的日常工作流中如何发挥作用",
 	[Key.aiToolsCategoryChat]: "对话助手",
 	[Key.aiToolsCategoryCoding]: "编码协作",
 	[Key.aiToolsCategoryImage]: "图像生成",
@@ -214,7 +214,7 @@ export const zh_CN: Translation = {
 
 	// 时间线页面
 	[Key.timeline]: "时间线",
-	[Key.timelineSubtitle]: "我的成长历程和重要里程碑",
+	[Key.timelineSubtitle]: "塑造我所做工作的教育、研究与工程经历",
 	[Key.timelineEducation]: "教育经历",
 	[Key.timelineWork]: "工作经历",
 	[Key.timelineProject]: "项目经历",

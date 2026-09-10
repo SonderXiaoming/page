@@ -12,6 +12,14 @@ export interface FriendItem {
 
 // 友情链接数据
 export const friendsData: FriendItem[] = [
+	{
+		id: 1,
+		title: "MJ_Du",
+		imgurl: "https://www.mingjiedu.xyz/Images/AWalkatDusk.jpg",
+		desc: "我在奥本大学遇到的同学，真正搞学术的人",
+		siteurl: "https://www.mingjiedu.xyz/",
+		tags: ["学术", "个人主页"],
+	},
 	/** 
 	{
 		id: 1,

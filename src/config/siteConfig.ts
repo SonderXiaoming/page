@@ -165,15 +165,14 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true,
-			title: "Xiaoming's homepage",
+			title: "Hi, I'm Xiaoming.",
 			switchable: true,
 
 			subtitle: [
-				"There's nothing special about me, but you're enough for me",
-				"You are still my light today",
-				"You're the one who made my every day special",
-				"Talking to you makes every day a little more fun",
-				"Today is just a normal day. But a little bit of a good day",
+				"I build open-source tools for Princess Connect and other communities.",
+				"Computer Engineering master's student at Columbia University.",
+				"Researching data systems and multimodal machine learning with Dong Lab.",
+				"Anime, games, useful software, and whatever is fun to make next.",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果

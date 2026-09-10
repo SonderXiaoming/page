@@ -19,7 +19,7 @@ export type LocaleString = Partial<
 >;
 
 export function getLocaleString(value: LocaleString, lang: string): string {
-	return value[lang as keyof LocaleString] ?? value["en"] ?? "";
+	return value[lang as keyof LocaleString] ?? value.en ?? "";
 }
 
 export interface AITool {
@@ -27,7 +27,7 @@ export interface AITool {
 	name: string;
 	description: LocaleString;
 	icon: string;
-	category: AIToolCategory;
+	categories: AIToolCategory[];
 	frequency: AIToolFrequency;
 	url?: string;
 	usage?: LocaleString;
@@ -35,56 +35,49 @@ export interface AITool {
 	color?: string;
 }
 
-// Replace the examples below with your own AI tools
 export const aiToolsData: AITool[] = [
 	{
-		id: "example-chat",
-		name: "Example Chat AI",
+		id: "chatgpt",
+		name: "ChatGPT",
 		description: {
-			en: "A conversational AI assistant for writing and reasoning.",
-			zh_CN: "用于写作与推理的对话式 AI 助手。",
+			en: "My main all-purpose AI assistant for building things, creating images, and everyday conversations.",
+			zh_CN: "我的主力全能 AI 助手，用于写代码、生成图片和日常聊天。",
+			zh_TW: "我的主力全能 AI 助手，用於寫程式、生成圖片和日常聊天。",
+			ja: "コーディング、画像生成、日常会話に使っているメインの万能 AI アシスタント。",
 		},
-		icon: "material-symbols:smart-toy",
-		category: "chat",
+		icon: "simple-icons:openai",
+		categories: ["chat", "coding", "image", "writing"],
 		frequency: "daily",
-		url: "https://example.com",
+		url: "https://chatgpt.com/",
 		usage: {
-			en: "Daily: writing, brainstorming",
-			zh_CN: "每天：写作、思路梳理",
+			en: "Daily: coding, image generation, and chatting",
+			zh_CN: "每天：编程、图像生成与聊天",
+			zh_TW: "每天：程式設計、圖像生成與聊天",
+			ja: "毎日：コーディング、画像生成、チャット",
 		},
-		tags: ["Chat"],
-		color: "#C97758",
-	},
-	{
-		id: "example-coding",
-		name: "Example Coding AI",
-		description: {
-			en: "An AI-powered code completion and review tool.",
-			zh_CN: "AI 驱动的代码补全与 review 工具。",
-		},
-		icon: "material-symbols:code",
-		category: "coding",
-		frequency: "weekly",
-		url: "https://example.com",
-		usage: {
-			en: "Weekly: code review, refactoring",
-			zh_CN: "每周：代码 review、重构",
-		},
-		tags: ["Coding"],
+		tags: ["Coding", "Image", "Chat", "Writing"],
 		color: "#10A37F",
 	},
 	{
-		id: "example-image",
-		name: "Example Image AI",
+		id: "grok",
+		name: "Grok",
 		description: {
-			en: "An AI image generation tool for creating illustrations.",
-			zh_CN: "用于生成插图的 AI 图像工具。",
+			en: "A secondary assistant I use when I want a less constrained, more open-ended perspective for conversation and creative exploration.",
+			zh_CN: "当我想要限制更少、视角更开放的对话与创意探索时使用的辅助 AI。",
+			zh_TW: "當我想要限制更少、視角更開放的對話與創意探索時使用的輔助 AI。",
+			ja: "制約が少なく、より自由な視点で会話や創作を広げたいときに使うサブ AI。",
 		},
-		icon: "material-symbols:image",
-		category: "image",
+		icon: "simple-icons:x",
+		categories: ["chat", "other"],
 		frequency: "occasional",
-		url: "https://example.com",
-		tags: ["Image"],
-		color: "#1A73E8",
+		url: "https://grok.com/",
+		usage: {
+			en: "Occasional: open-ended conversations and a second perspective",
+			zh_CN: "偶尔：更自由的对话与不同视角",
+			zh_TW: "偶爾：更自由的對話與不同視角",
+			ja: "時々：自由な会話と別の視点",
+		},
+		tags: ["Chat", "Open-ended", "Second Perspective"],
+		color: "#111111",
 	},
 ];

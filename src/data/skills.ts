@@ -18,12 +18,58 @@ export interface Skill {
 }
 
 export const skillsData: Skill[] = [
+  // Core language for open-source services, automation, and research workflows
+  {
+    id: "python",
+    name: "Python",
+    description:
+      "Primary language for asynchronous monitoring services, chatbot plugins, automation, data analysis, and research workflows across my open-source work.",
+    icon: "logos:python",
+    category: "backend",
+    level: "expert",
+    experience: { years: 4, months: 0 },
+    projects: [
+      "kanna_note",
+      "youzi_voice",
+      "kanna_connection_redive",
+      "kanna_connection_redive_2",
+      "autohelp",
+      "login_bonus",
+      "dailywife",
+      "pcrjjc_huannai",
+      "pcrjjc_huannai2",
+    ],
+    color: "#3776AB",
+  },
+  {
+    id: "data-engineering",
+    name: "Data Engineering",
+    description:
+      "Designing structured storage, reproducible workflows, and scalable queries for heterogeneous multi-omics datasets.",
+    icon: "material-symbols:database",
+    category: "backend",
+    level: "intermediate",
+    experience: { years: 1, months: 0 },
+    color: "#0F766E",
+  },
+  {
+    id: "machine-learning",
+    name: "Machine Learning",
+    description:
+      "Built activity-recognition pipelines, evaluated RF sensing across modalities, and now explores multimodal data integration for healthcare research.",
+    icon: "material-symbols:model-training",
+    category: "other",
+    level: "intermediate",
+    experience: { years: 1, months: 0 },
+    color: "#7C3AED",
+  },
+
   // Frontend Skills
   {
     id: "javascript",
     name: "JavaScript",
     description:
-      "Modern JavaScript development, including ES6+ syntax, asynchronous programming, and modular development.",
+      "Used to build browser extensions and interactive interfaces, including the Overleaf formatting workflow and supporting web tools.",
     icon: "logos:javascript",
     category: "frontend",
     level: "intermediate",
@@ -35,7 +81,7 @@ export const skillsData: Skill[] = [
     id: "typescript",
     name: "TypeScript",
     description:
-      "A type-safe superset of JavaScript that enhances code quality and development efficiency.",
+      "Used for typed web tooling and maintainable application code, including the chemistry equation generator and this site.",
     icon: "logos:typescript-icon",
     category: "frontend",
     level: "intermediate",
@@ -47,7 +93,7 @@ export const skillsData: Skill[] = [
     id: "vue",
     name: "Vue.js",
     description:
-      "A progressive JavaScript framework that is easy to learn and use, suitable for rapid development.",
+      "Built focused user interfaces for desktop and web utilities, including PCR Login Helper and Auto Chem Joke.",
     icon: "logos:vue",
     category: "frontend",
     level: "intermediate",
@@ -59,7 +105,7 @@ export const skillsData: Skill[] = [
     id: "sass",
     name: "Sass/SCSS",
     description:
-      "A CSS preprocessor providing advanced features like variables, nesting, and mixins.",
+      "Used to organize reusable styles and maintain visual consistency across custom interfaces and personal projects.",
     icon: "logos:sass",
     category: "frontend",
     level: "intermediate",
@@ -71,7 +117,7 @@ export const skillsData: Skill[] = [
     id: "nodejs",
     name: "Node.js",
     description:
-      "A JavaScript runtime based on Chrome V8 engine, used for server-side development.",
+      "Supports build tooling, content pipelines, and server-side JavaScript tasks in web projects and automation workflows.",
     icon: "logos:nodejs-icon",
     category: "backend",
     level: "intermediate",
@@ -91,34 +137,12 @@ export const skillsData: Skill[] = [
     color: "#E34F26",
   },
 
-  // Backend Skills
-  {
-    id: "python",
-    name: "Python",
-    description:
-      "A general-purpose programming language suitable for web development, data analysis, machine learning, and more.",
-    icon: "logos:python",
-    category: "backend",
-    level: "expert",
-    experience: { years: 4, months: 0 },
-    projects: [
-      "kanna_note",
-      "youzi_voice",
-      "kanna_connection_redive",
-      "kanna_connection_redive_2",
-      "autohelp",
-      "login_bonus",
-      "dailywife",
-      "pcrjjc_huannai",
-      "pcrjjc_huannai2",
-    ],
-    color: "#3776AB",
-  },
+  // Backend and systems skills
   {
     id: "java",
     name: "Java",
     description:
-      "A mainstream programming language for enterprise application development, cross-platform and object-oriented.",
+      "Used for object-oriented programming, data-structure work, and application development in academic projects.",
     icon: "logos:java",
     category: "backend",
     level: "intermediate",
@@ -129,7 +153,7 @@ export const skillsData: Skill[] = [
     id: "go",
     name: "Go",
     description:
-      "An efficient programming language developed by Google, suitable for cloud-native and microservices development.",
+      "Exploratory experience with small concurrent services and command-line programs while learning Go's systems model.",
     icon: "logos:go",
     category: "backend",
     level: "beginner",
@@ -140,7 +164,7 @@ export const skillsData: Skill[] = [
     id: "rust",
     name: "Rust",
     description:
-      "A systems programming language focusing on safety, speed, and concurrency, with no garbage collector.",
+      "Powers the native layer of PCR Login Helper, where memory safety and cross-platform desktop integration matter.",
     icon: "logos:rust",
     category: "backend",
     level: "intermediate",
@@ -152,7 +176,7 @@ export const skillsData: Skill[] = [
     id: "cpp",
     name: "C++",
     description:
-      "A high-performance systems programming language widely used in game development, system software, and embedded development.",
+      "Used in computer-engineering coursework, SystemC work, sensing research, and performance-conscious application code.",
     icon: "logos:c-plusplus",
     category: "backend",
     level: "intermediate",
@@ -163,7 +187,7 @@ export const skillsData: Skill[] = [
     id: "c",
     name: "C",
     description:
-      "A low-level systems programming language, the foundation for operating systems and embedded systems development.",
+      "Used for low-level programming and embedded-software work where direct control over memory and hardware interfaces matters.",
     icon: "logos:c",
     category: "backend",
     level: "intermediate",
@@ -174,7 +198,7 @@ export const skillsData: Skill[] = [
     id: "kotlin",
     name: "Kotlin",
     description:
-      "A modern programming language developed by JetBrains, fully compatible with Java, the preferred choice for Android development.",
+      "Working knowledge developed through Android and JVM-oriented experiments, with a focus on concise application code.",
     icon: "logos:kotlin-icon",
     category: "backend",
     level: "beginner",
@@ -185,7 +209,7 @@ export const skillsData: Skill[] = [
     id: "ruby",
     name: "Ruby",
     description:
-      "A dynamic, open-source programming language focusing on simplicity and productivity, the foundation of the Rails framework.",
+      "Introductory experience with Ruby's scripting style and productivity-oriented language design.",
     icon: "logos:ruby",
     category: "backend",
     level: "beginner",
@@ -196,7 +220,7 @@ export const skillsData: Skill[] = [
     id: "php",
     name: "PHP",
     description:
-      "A widely-used server-side scripting language, particularly suitable for web development.",
+      "Used for server-rendered web exercises and maintaining small backend features in traditional web stacks.",
     icon: "logos:php",
     category: "backend",
     level: "intermediate",
@@ -209,7 +233,7 @@ export const skillsData: Skill[] = [
     id: "postgresql",
     name: "PostgreSQL",
     description:
-      "A powerful open-source relational database management system.",
+      "Used for relational schema design, structured querying, and data-backed application workflows.",
     icon: "logos:postgresql",
     category: "database",
     level: "intermediate",
@@ -220,7 +244,7 @@ export const skillsData: Skill[] = [
     id: "redis",
     name: "Redis",
     description:
-      "A high-performance in-memory data structure store, used as a database, cache, and message broker.",
+      "Used for caching and fast shared state in services where repeated reads and short-lived data need low latency.",
     icon: "logos:redis",
     category: "database",
     level: "intermediate",
@@ -231,7 +255,7 @@ export const skillsData: Skill[] = [
     id: "mongodb",
     name: "MongoDB",
     description:
-      "A document-oriented NoSQL database with a flexible data model.",
+      "Used for document-oriented prototypes where flexible records are more useful than a fixed relational schema.",
     icon: "logos:mongodb-icon",
     category: "database",
     level: "intermediate",
@@ -242,7 +266,7 @@ export const skillsData: Skill[] = [
     id: "sqlite",
     name: "SQLite",
     description:
-      "A lightweight embedded relational database, suitable for mobile applications and small projects.",
+      "Embedded persistence for bot plugins and companion apps, including Kanna Note, PCR Arena Companion 2, and Misora Note.",
     icon: "simple-icons:sqlite",
     category: "database",
     level: "intermediate",
@@ -256,7 +280,7 @@ export const skillsData: Skill[] = [
     id: "git",
     name: "Git",
     description:
-      "A distributed version control system, an essential tool for code management and team collaboration.",
+      "Daily version-control workflow for maintaining open-source repositories, reviewing changes, and evolving long-lived projects.",
     icon: "logos:git-icon",
     category: "tools",
     level: "advanced",
@@ -267,7 +291,7 @@ export const skillsData: Skill[] = [
     id: "vscode",
     name: "VS Code",
     description:
-      "A lightweight but powerful code editor with a rich plugin ecosystem.",
+      "Primary development environment across Python, TypeScript, Rust, Flutter, and remote research workflows.",
     icon: "logos:visual-studio-code",
     category: "tools",
     level: "expert",
@@ -289,7 +313,7 @@ export const skillsData: Skill[] = [
     id: "docker",
     name: "Docker",
     description:
-      "A containerization platform that simplifies application deployment and environment management.",
+      "Used to package reproducible development and deployment environments for services and data workflows.",
     icon: "logos:docker-icon",
     category: "tools",
     level: "beginner",
@@ -301,7 +325,8 @@ export const skillsData: Skill[] = [
   {
     id: "nginx",
     name: "Nginx",
-    description: "A high-performance web server and reverse proxy server.",
+    description:
+      "Configured as a reverse proxy and static-file server for deployed web tools and long-running services.",
     icon: "logos:nginx",
     category: "tools",
     level: "intermediate",
@@ -323,7 +348,8 @@ export const skillsData: Skill[] = [
   {
     id: "photoshop",
     name: "Photoshop",
-    description: "Professional image editing and design software.",
+    description:
+      "Used to prepare visual assets, promotional graphics, and image edits for projects and community content.",
     icon: "logos:adobe-photoshop",
     category: "tools",
     level: "intermediate",
@@ -333,7 +359,8 @@ export const skillsData: Skill[] = [
   {
     id: "premiere-pro",
     name: "Premiere Pro",
-    description: "Professional video editing and compositing software.",
+    description:
+      "Used to edit and assemble longer-form video content for personal and community publishing.",
     icon: "logos:adobe-premiere-pro",
     category: "tools",
     level: "intermediate",
@@ -343,7 +370,8 @@ export const skillsData: Skill[] = [
   {
     id: "after-effects",
     name: "After Effects",
-    description: "Professional video editing and compositing software.",
+    description:
+      "Used for motion graphics, compositing, and animated elements that complement edited video content.",
     icon: "logos:adobe-after-effects",
     category: "tools",
     level: "intermediate",

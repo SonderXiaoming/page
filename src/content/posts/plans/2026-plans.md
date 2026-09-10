@@ -1,7 +1,8 @@
 ---
 title: "2026 Plans (So Far)"
 published: 2026-06-13
-description: "A working draft of what I'm aiming for in 2026 — income, travel, grad school, a job search, and a few site todos. Subject to change."
+updated: 2026-09-09
+description: "A snapshot of the questions and priorities I was working through in mid-2026."
 tags: [Plans, Personal, Draft]
 category: Notes
 image: "./cover.jpg"
@@ -9,7 +10,7 @@ lang: en
 pinned: true
 ---
 
-> **Draft.** Rough notes, not a finished plan — I'll keep revising this as things shift.
+> **Archive note.** This is a snapshot of what I was thinking about on June 13, 2026, not a live status page. Some priorities may have changed since then.
 
 Mid-2026 checkpoint: a few directions I'm trying to figure out at once. Nothing here is locked in.
 
@@ -42,4 +43,4 @@ I'm close enough to graduate that full-time roles are on the table. I haven't so
 
 ---
 
-_Last updated: 2026-06-13_
+_Originally written: 2026-06-13 · Context note added: 2026-09-09_

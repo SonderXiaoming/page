@@ -138,7 +138,7 @@ export const zh_TW: Translation = {
 
 	// 專案展示頁面
 	[Key.projects]: "專案展示",
-	[Key.projectsSubtitle]: "我的開發專案作品集",
+	[Key.projectsSubtitle]: "面向自動化、研究工作流程與遊戲社群的開源工具",
 	[Key.projectsAll]: "全部",
 	[Key.projectsWeb]: "網路應用程式",
 	[Key.projectsMobile]: "行動應用程式",
@@ -206,7 +206,7 @@ export const zh_TW: Translation = {
 
 	// 技能展示頁面
 	[Key.skills]: "技能展示",
-	[Key.skillsSubtitle]: "我的技術技能和專業知識",
+	[Key.skillsSubtitle]: "我用來交付專案、支援研究工作流程與維護系統的技術",
 	[Key.skillsFrontend]: "前端開發",
 	[Key.skillsBackend]: "後端開發",
 	[Key.skillsDatabase]: "資料庫",
@@ -233,7 +233,7 @@ export const zh_TW: Translation = {
 
 	// AI 工具（關於頁面）
 	[Key.aiTools]: "我使用的 AI 工具",
-	[Key.aiToolsSubtitle]: "目前在日常工作流程中常用的 AI 助手與服務",
+	[Key.aiToolsSubtitle]: "簡要記錄 AI 在我的日常工作流程中如何發揮作用",
 	[Key.aiToolsCategoryChat]: "對話助手",
 	[Key.aiToolsCategoryCoding]: "編碼協作",
 	[Key.aiToolsCategoryImage]: "圖像生成",
@@ -252,7 +252,7 @@ export const zh_TW: Translation = {
 
 	// 時間線頁面
 	[Key.timeline]: "時間線",
-	[Key.timelineSubtitle]: "我的成長歷程和重要里程碑",
+	[Key.timelineSubtitle]: "塑造我所做工作的教育、研究與工程經歷",
 	[Key.timelineEducation]: "教育經歷",
 	[Key.timelineWork]: "工作經歷",
 	[Key.timelineProject]: "專案經歷",
