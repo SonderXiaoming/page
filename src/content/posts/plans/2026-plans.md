@@ -1,46 +1,46 @@
 ---
-title: "2026 Plans (So Far)"
+title: "2026 Plans: September Update"
 published: 2026-06-13
 updated: 2026-09-09
-description: "A snapshot of the questions and priorities I was working through in mid-2026."
-tags: [Plans, Personal, Draft]
+description: "A candid September update on AI comics, PhD applications, job hunting, and plans that did not work out."
+tags: [Plans, Personal, Update]
 category: Notes
 image: "./cover.jpg"
 lang: en
 pinned: true
 ---
 
-> **Archive note.** This is a snapshot of what I was thinking about on June 13, 2026, not a live status page. Some priorities may have changed since then.
+> **September update.** I originally wrote this list on June 13, 2026. Three months later, some ideas have failed, some circumstances have changed, and a few paths are finally becoming concrete.
 
-Mid-2026 checkpoint: a few directions I'm trying to figure out at once. Nothing here is locked in.
+This is less a polished roadmap than an honest progress report: what worked, what did not, and what I can still do next.
 
-## 1. Find a way to make money — AI or otherwise
+## 1. Making money with AI: the first attempts failed, but comics look promising
 
-### 1.a Learn from people who've already done it
+The first set of ideas did not work out. Reaching out to people who had already built successful AI projects, trying AI-assisted freelance work, and using short-form content as a funnel all failed to produce a viable path.
 
-Projects like _Dungeon Tavern_ (地牢酒馆) and _Nailong Bible_ (奶龙圣经) seem to be pulling it off. I should probably reach out to the developers — ask how they started, what they actually ship, and how they keep it running.
+The useful discovery was **AI comics**. The space does not feel saturated yet, and the work I have made has already earned recognition from a small audience. I also believe its overall quality is better than most AI comics currently on the market—and even some traditionally drawn ones.
 
-### 1.b Freelance work + content as a funnel
+That is not a business result yet, but it is the first signal strong enough to keep pursuing. The next challenge is turning that early recognition into consistent publishing, a larger audience, and eventually revenue.
 
-ChatGPT pointed me toward freelance gigs with AI-assisted writing, plus short videos to drive traffic. Sounds plausible enough to test on a small scale before committing to it.
+## 2. Visiting classmates in the US: no longer a plan
 
-## 2. Visit classmates in the US
+Most of the classmates I wanted to visit have returned to China, so the original reason for the trip has mostly disappeared. This one did not happen, and I am closing it rather than pretending it is still pending.
 
-An in-person catch-up would stick more than another group chat. Could matter later — professionally or otherwise. The hard parts are finding the time and convincing Dad to sponsor the trip.
+## 3. PhD applications: one recommendation letter short
 
-## 3. Get serious about PhD applications
+The immediate task is securing recommendation letters. I still need one more. My first choice is a professor whose class I previously took; if that does not work out, I will ask my former advisor as a backup.
 
-If I don't, I'm not sure I can stay on my current path. I still need to narrow down target programs and line up recommendation letters.
+For now, that final letter is the main bottleneck in the application process.
 
-## 4. Maybe start job hunting
+## 4. Job hunting: NVIDIA and TikTok referrals
 
-I'm close enough to graduate that full-time roles are on the table. I haven't sorted out how that fits with the PhD track yet, but ignoring the option feels lazy.
+I currently have referrals to **NVIDIA** and **TikTok**, which are my strongest leads. I will give both opportunities a serious shot. If neither turns into an offer, I do not have another clear route at the moment.
 
 ## 5. Site housekeeping
 
-- Add a **friends** page / links
-- Turn on **albums** and upload a few pieces I'm actually proud of
+- ~~Add a **friends** page / links~~ — done
+- Turn on **albums** and upload a few pieces I am actually proud of — still pending
 
 ---
 
-_Originally written: 2026-06-13 · Context note added: 2026-09-09_
+_Originally written: 2026-06-13 · Updated: 2026-09-09_

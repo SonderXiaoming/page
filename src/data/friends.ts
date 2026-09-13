@@ -16,9 +16,9 @@ export const friendsData: FriendItem[] = [
 		id: 1,
 		title: "MJ_Du",
 		imgurl: "https://www.mingjiedu.xyz/Images/AWalkatDusk.jpg",
-		desc: "我在奥本大学遇到的同学，真正搞学术的人",
+		desc: "A classmate I met at Auburn University who is genuinely committed to academic research.",
 		siteurl: "https://www.mingjiedu.xyz/",
-		tags: ["学术", "个人主页"],
+		tags: ["Academic", "Personal Site"],
 	},
 	/** 
 	{
